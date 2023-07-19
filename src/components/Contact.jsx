@@ -3,7 +3,7 @@ import { CiPaperplane } from 'react-icons/ci'
 
 const Contact = () => {
     return (
-        <div name='contact' className='w-full h-full bg-[#000000] flex justify-center items-center p-4 lower-text-2xl'>
+        <div name='contact' className='w-screen h-full bg-[#000000] flex justify-center items-center p-4 lower-text-2xl'>
             <form method='POST' action="https://getform.io/f/0a520f97-6d11-4b61-a879-05ce6c4b6277" className='flex flex-col max-w-[1000px] w-full'>
                 <div className='pb-8 pl-8'>
                     <h1 className='text-4xl sm:text-left sm:text-7xl inline font-bold text-[#e5e5e5]'>Contact <span className='gradient-text'>Me</span></h1>

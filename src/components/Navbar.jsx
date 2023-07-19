@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNavbar(!navbar)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-white'>
+    <div className='fixed w-screen h-[80px] flex justify-between items-center px-4 bg-[#000000] text-white'>
       <div><img src={Logo} alt="Aniket Pratap Logo" style={{ width: '80px' }} /></div>
       {/* navigation */}
       {/* setting media query, under 760px*/}

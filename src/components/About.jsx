@@ -28,7 +28,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#000000] lower-text'>
+    <div name='about' className='w-screen h-screen bg-[#000000] lower-text'>
 
 
 

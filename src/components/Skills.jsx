@@ -4,7 +4,7 @@ import { DiLinux } from "react-icons/di"
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full h-full md:h-screen bg-[#000000] lower-text-3xl'>
+        <div name='skills' className='w-screen h-full md:h-screen bg-[#000000] lower-text-3xl'>
 
             <div className='flex flex-col justify-center items-center w-full h-full text-[#e5e5e5]'>
                 <div className='max-w-[1000px] w-full pb-8 pl-8 '>
