@@ -39,20 +39,20 @@ const About = () => {
               <p className='inline font-bold text-[#e5e5e5]'>About <span id="me" className='gradient-text'>Me </span></p>
             </div>
             <div>
-              <p className='text-[#e5e5e5] pb-8 px-8 text-2xl'>I'm a <span className='gradient-text font-bold'>Swashbuckling </span>
+              <p className='text-[#e5e5e5] pb-8 px-8 md:text-2xl'>I'm a <span className='gradient-text font-bold'>Swashbuckling </span>
                 Computer Science Student at the University of California Irvine and I wake up every <span className='gradient-text font-bold'>morning </span> thinking,
                 what <span className='gradient-text font-bold'>haven't</span> people done yet?
                 Well, the <span className='gradient-text font-bold'>answer</span> is a lot of things so I go back to <span className='gradient-text font-bold'>sleep...</span>
 
               </p>
 
-              <p className='text-[#e5e5e5] pb-8 px-8 text-2xl'> <span className='gradient-text font-bold'>Jokes</span> aside, I am <span className='gradient-text font-bold'>enthusiastic </span>
+              <p className='text-[#e5e5e5] pb-8 px-8 md:text-2xl'> <span className='gradient-text font-bold'>Jokes</span> aside, I am <span className='gradient-text font-bold'>enthusiastic </span>
                 about making things that spread <span className='gradient-text font-bold'>joy</span>
               </p>
 
-              <p className='text-[#e5e5e5] pb-8 px-8 text-2xl'>I <span className='gradient-text font-bold'>accomplish</span> this by building <span className='gradient-text font-bold'>software</span> that's simple, <span className='gradient-text font-bold'>innovative</span> and fun to use</p>
-              <p className='text-[#e5e5e5] pb-8 px-8 text-2xl'>And I also like making <span className='gradient-text font-bold'>music</span> on FL Studio</p>
-              <p className='text-[#e5e5e5] pb-8 px-8 text-2xl'>Not to mention going outside and touching <span className='gradient-text font-bold'>grass</span></p>
+              <p className='text-[#e5e5e5] pb-8 px-8 md:text-2xl'>I <span className='gradient-text font-bold'>accomplish</span> this by building <span className='gradient-text font-bold'>software</span> that's simple, <span className='gradient-text font-bold'>innovative</span> and fun to use</p>
+              <p className='text-[#e5e5e5] pb-8 px-8 md:text-2xl'>And I also like making <span className='gradient-text font-bold'>music</span> on FL Studio</p>
+              <p className='text-[#e5e5e5] pb-8 px-8 md:text-2xl'>Not to mention going outside and touching <span className='gradient-text font-bold'>grass</span></p>
 
             </div>
 
