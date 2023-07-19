@@ -93,7 +93,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className='fixed flex-col top-[20%] right-0 md:hidden'>
+      <div className='fixed flex-col bottom-[1%] right-0 md:hidden'>
         <ul>
           <li className='w-[135px] h-[40px] flex justify-between items-center mr-[-90px] duration-300 bg-[#0b66c2]'>
             <a className="flex justify-between items-center w-full text-white text-md" href="https://www.linkedin.com/in/aniketpratap/"> <FaLinkedin size={20} /> Linkedin </a>
