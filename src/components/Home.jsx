@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import { GiAnvilImpact, GiDuration } from "react-icons/gi"
-import Spiderman from '../assests/spiderman.png'
+import { GiAnvilImpact} from "react-icons/gi"
+//import Spiderman from '../assests/spiderman.png'
 import { Link } from 'react-scroll'
 
 const Home = () => {

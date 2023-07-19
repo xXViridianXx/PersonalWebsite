@@ -1,5 +1,5 @@
 import React from 'react'
-import Spiderman from '../assests/spiderman.png'
+//import Spiderman from '../assests/spiderman.png'
 // import Aniket from '../assests/Aniket.png'
 // const About = () => {
 //     return (
@@ -24,7 +24,7 @@ import Spiderman from '../assests/spiderman.png'
 
 // export default About
 
-import Aniket from '../assests/Aniket.png'; // Import your image
+//import Aniket from '../assests/Aniket.png'; // Import your image
 
 const About = () => {
   return (

@@ -4,7 +4,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
-import Blob from './components/Blob';
+//import Blob from './components/Blob';
 
 function App() {
   return (
