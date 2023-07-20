@@ -32,7 +32,7 @@ const Home = () => {
         <div name='home' className='w-screen h-screen bg-[#000000]'>
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <h1 className='text-[#e5e5e5] text-4xl font-bold sm:text-7xl tracking-wide'>I'm <span id="name" className='gradient-text'>Aniket Pratap</span></h1>
-                <h3 className='text-white text-2xl font-bold tracking-wide'>A {''}
+                <h3 className='text-[#e5e5e5] text-2xl font-bold tracking-wide'>A {''}
                     <div className='gradient-text inline'>
                         <span style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>
                             {/* Style will be inherited from the parent element */}
