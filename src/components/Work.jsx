@@ -33,7 +33,7 @@ const Work = () => {
                     <div style={{ backgroundImage: `url(${Homer})` }} className=' group container rounded-lg flex justify-center items-center mx-auto content-div'>
                         <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-[#e5e5e5] tracking-wider gradient-text'>
-                                Homer Simpson text generator
+                                Homer Simpson Text Generator
                             </span>
                             {/* <div className='pt-8 text-center'>
                                 <a href="/">
