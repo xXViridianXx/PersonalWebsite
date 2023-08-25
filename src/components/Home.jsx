@@ -6,20 +6,6 @@ import { Link } from 'react-scroll'
 
 const Home = () => {
 
-    // let name = new SplitType("#name")
-    // let characters = document.querySelectorAll('.char')
-
-    // for (let i = 0; i < characters.length; i++) {
-    //     characters.classList.add('translate-y-full')
-    // }
-
-    // gsap.to('.char', {
-    //     y: 0,
-    //     stagger: .05,
-    //     delay: .02,
-    //     duration: .5
-    // })
-
     const handleType = (count: number) => {
         // access word count number
         console.log(count)
