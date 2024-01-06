@@ -1,6 +1,6 @@
 import React from 'react'
 import Bulbasaur from '../assests/pikachu.jpg';
-import Homer from '../assests/homer.jpeg';
+import Homer from '../assests/UCI.png';
 import Huffman from '../assests/Huffman.jpeg';
 import Shell from '../assests/shell.jpeg';
 import BigInt from '../assests/BigInt.png';
@@ -19,30 +19,30 @@ const Work = () => {
                             <span className='text-2xl font-bold text-[#e5e5e5] tracking-wider gradient-text'>
                                 Pokemon Search Engine
                             </span>
-                            {/* <div className='pt-8 text-center'>
-                                <a href="/">
+                            <div className='pt-8 text-center'>
+                                <a href="https://pkmnsearch.netlify.app">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Try it!</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/xXViridianXx/PokemonSearchEngine">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
 
                     <div style={{ backgroundImage: `url(${Homer})` }} className=' group container rounded-lg flex justify-center items-center mx-auto content-div'>
                         <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-[#e5e5e5] tracking-wider gradient-text'>
-                                Homer Simpson Text Generator
+                                ZotAPI
                             </span>
-                            {/* <div className='pt-8 text-center'>
-                                <a href="/">
+                            <div className='pt-8 text-center'>
+                                <a href="https://1tgg4m2pra.execute-api.us-east-2.amazonaws.com/prod/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Try it!</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/xXViridianXx/Zot-API">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
 
@@ -51,14 +51,14 @@ const Work = () => {
                             <span className='text-2xl font-bold text-[#e5e5e5] tracking-wider gradient-text'>
                                 Huffman Data Compression
                             </span>
-                            {/* <div className='pt-8 text-center'>
-                                <a href="/">
+                            <div className='pt-8 text-center'>
+                                {/* <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Try it!</button>
-                                </a>
-                                <a href="/">
+                                </a> */}
+                                <a href="https://github.com/xXViridianXx/Huffman-Data">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
 
@@ -83,14 +83,14 @@ const Work = () => {
                             <span className='text-2xl font-bold text-[#e5e5e5] tracking-wider gradient-text'>
                                 Big Integer Library
                             </span>
-                            {/* <div className='pt-8 text-center'>
-                                <a href="/">
+                            <div className='pt-8 text-center'>
+                                {/* <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Try it!</button>
-                                </a>
-                                <a href="/">
+                                </a> */}
+                                <a href="https://github.com/xXViridianXx/Big-Integer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
 
