@@ -3,7 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assests/logo.png'
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 import Resume from '../assests/AniketPratap_SWE.pdf'
 
 const Navbar = () => {
@@ -17,27 +17,27 @@ const Navbar = () => {
       {/* setting media query, under 760px*/}
       <ul className='hidden md:flex'>
         <li className='border-b-2 border-transparent hover:border-white transition duration-300'>
-        <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
             Home
           </Link>
         </li>
         <li className='border-b-2 border-transparent hover:border-white transition duration-300'>
-        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
             About
           </Link>
         </li>
         <li className='border-b-2 border-transparent hover:border-white transition duration-300'>
-        <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
             Skills
           </Link>
         </li>
         <li className='border-b-2 border-transparent hover:border-white transition duration-300'>
-        <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
             Cool Stuff
           </Link>
         </li>
         <li className='border-b-2 border-transparent hover:border-white transition duration-300'>
-        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
             Contact
           </Link>
         </li>
@@ -51,25 +51,25 @@ const Navbar = () => {
       {/* mobile menue */}
       <ul className={!navbar ? "hidden" : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>
-        <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
             Home
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
             About
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-        <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="skills" spy={true} smooth={true} offset={50} duration={500}>
             Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'><Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
-            Cool Stuff
-          </Link></li>
+          Cool Stuff
+        </Link></li>
         <li className='py-6 text-4xl'>
-        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
+          <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
             Contact
           </Link>
         </li>
@@ -105,7 +105,7 @@ const Navbar = () => {
             <a className="flex justify-between items-center w-full text-white text-md" href="mailto:aniketpx@gmail.com"> <HiOutlineMail size={20} /> Email </a>
           </li>
           <li className='w-[135px] h-[40px] flex justify-between items-center mr-[-90px] duration-300 bg-[#2a9d8f]'>
-            <a className="flex justify-between items-center w-full text-white text-md" href={Resume}> <BsFillPersonLinesFill size={20}/> Resume </a>
+            <a className="flex justify-between items-center w-full text-white text-md" href={Resume}> <BsFillPersonLinesFill size={20} /> Resume </a>
           </li>
         </ul>
       </div>

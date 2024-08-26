@@ -4,6 +4,7 @@ import Homer from '../assests/UCI.png';
 import Huffman from '../assests/Huffman.jpeg';
 import Shell from '../assests/shell.jpeg';
 import BigInt from '../assests/BigInt.png';
+import ZotClass from "../assests/ZotClass.jpeg"
 
 const Work = () => {
     return (
@@ -14,6 +15,21 @@ const Work = () => {
                 </div>
 
                 <div className='grid sm:grid-cols-2 gap-8 pl-8 pr-8 md:grid-cols-3 bg-[#000000]'>
+                    <div style={{ backgroundImage: `url(${ZotClass})` }} className=' group container rounded-lg flex justify-center items-center mx-auto content-div'>
+                        <div className='opacity-0 group-hover:opacity-100 text-center'>
+                            <span className='text-2xl font-bold text-[#e5e5e5] tracking-wider gradient-text'>
+                                ZotClass
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="https://apps.apple.com/us/app/zotclass/id6553967924">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Try it!</button>
+                                </a>
+                                <a href="https://github.com/xXViridianXx/ZotClass">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div style={{ backgroundImage: `url(${Bulbasaur})` }} className=' group container rounded-lg flex justify-center items-center mx-auto content-div'>
                         <div className='opacity-0 group-hover:opacity-100 text-center'>
                             <span className='text-2xl font-bold text-[#e5e5e5] tracking-wider gradient-text'>
